@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.hdfc.load.eduloan.NewWeekEnd2.LinkTesting">
+        <methods>
+          <include name="linkTesting"/>
+          <include name="vishnu"/>
+          <include name="priya"/>
+        </methods>
+      </class> <!-- com.hdfc.load.eduloan.NewWeekEnd2.LinkTesting -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="1Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.hdfc.load.eduloan.NewWeekEnd2.LinkTesting">
+        <methods>
+          <include name="linkTesting"/>
+          <include name="vishnu"/>
+          <include name="priya"/>
+        </methods>
+      </class> <!-- com.hdfc.load.eduloan.NewWeekEnd2.LinkTesting -->
+    </classes>
+  </test> <!-- 1Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
