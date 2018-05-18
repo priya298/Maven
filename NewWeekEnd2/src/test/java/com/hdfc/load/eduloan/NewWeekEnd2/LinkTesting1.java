@@ -13,7 +13,7 @@ public class LinkTesting1 extends BasePage
   @Parameters
   public void StartProcess(String browser) throws Exception 
   {
-	 browserLaunch(browser, getData("eenaduurl"));
+	 browserLaunch(browser, getData("flipkartUrl"));
   }
 
   @Test
