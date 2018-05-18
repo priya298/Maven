@@ -4,25 +4,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.hdfc.load.eduloan.NewWeekEnd2.LinkTesting">
+      <class name="com.hdfc.load.eduloan.NewWeekEnd2.TestNG">
         <methods>
-          <include name="linkTesting"/>
-          <include name="vishnu"/>
-          <include name="priya"/>
+          <include name="CustomerLogin"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.hdfc.load.eduloan.NewWeekEnd2.LinkTesting -->
+      </class> <!-- com.hdfc.load.eduloan.NewWeekEnd2.TestNG -->
     </classes>
   </test> <!-- Test(failed) -->
-  <test thread-count="5" name="1Test(failed)">
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="com.hdfc.load.eduloan.NewWeekEnd2.LinkTesting">
-        <methods>
-          <include name="linkTesting"/>
-          <include name="vishnu"/>
-          <include name="priya"/>
-        </methods>
-      </class> <!-- com.hdfc.load.eduloan.NewWeekEnd2.LinkTesting -->
-    </classes>
-  </test> <!-- 1Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
