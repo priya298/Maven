@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.hdfc.load.eduloan.NewWeekEnd2.TestNG">
+      <class name="com.hdfc.load.eduloan.NewWeekEnd2.LinkTesting1">
         <methods>
-          <include name="CustomerLogin"/>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
+          <include name="SingleLink"/>
+          <include name="StartProcess"/>
+          <include name="EndProcess"/>
         </methods>
-      </class> <!-- com.hdfc.load.eduloan.NewWeekEnd2.TestNG -->
+      </class> <!-- com.hdfc.load.eduloan.NewWeekEnd2.LinkTesting1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

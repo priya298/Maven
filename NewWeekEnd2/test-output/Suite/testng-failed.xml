@@ -4,13 +4,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.hdfc.load.eduloan.NewWeekEnd2.TestNG">
+      <class name="com.hdfc.load.eduloan.NewWeekEnd2.LinkTesting1">
         <methods>
-          <include name="CustomerLogin"/>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
+          <include name="SingleLink"/>
+          <include name="StartProcess"/>
+          <include name="EndProcess"/>
         </methods>
-      </class> <!-- com.hdfc.load.eduloan.NewWeekEnd2.TestNG -->
+      </class> <!-- com.hdfc.load.eduloan.NewWeekEnd2.LinkTesting1 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
